@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// חיים ברלה וזלוש בהצלחה!!
+
+using System;
+
+namespace GolanGolan
+{
+    static class AtBash
+    {
+        static void Main()
+        {
+            Console.WriteLine("Good lock Golan!");
+        }
+    }
+}
