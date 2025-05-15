@@ -41,5 +41,21 @@ namespace GolanGolan
             }
             return result.ToString();
         }
+
+
+        static Tuple<int, string> insertToDict(string strDecrypt)
+        {
+            string[] words = { "bomb", "nukhba", "fighter", "rocket", " secret" };
+            int count = 0;
+            for (int i = 0; i < words.Length; i++)
+            {
+                if (strDecrypt.Contains(words[i]))
+                {
+                    count++;
+                }
+            }
+
+            return Tuple.Create(count, strDecrypt);
+        }
     }
 }
